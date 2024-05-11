@@ -167,7 +167,7 @@ add_filter( 'block_categories_all' , function( $categories ) {
 //     $areas[] = array(
 //         'area'        => 'kafcoHome',
 //         'area_tag'    => 'section', // Valid elements: div, header, main, section, article, aside and footer.
-//         'label'       => __( 'kafco Home', 'merged-theme' ),
+//         'label'       => __( 'kafco Home', 'kafcotheme' ),
 //         'description' => __( 'Template part area description', 'merged-theme' ),
 //         'icon'        => 'sidebar' // Default icons: header, footer and sidebar.
 //     );
