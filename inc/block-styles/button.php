@@ -2,8 +2,8 @@
 /**
  * Register Button Block Styles.
  *
- * @package Spectra One
- * @author Brainstorm Force
+ * @package Kafco
+ * @author Diyar United
  * @since 0.0.1
  */
 
@@ -19,7 +19,7 @@ register_block_style(
 	'core/button',
 	array(
 		'name'         => SWT_PFX . '-button-secondary',
-		'label'        => __( 'Secondary', 'spectra-one' ),
+		'label'        => __( 'Secondary', 'kafco' ),
 		'inline_style' => '
 			div.is-style-' . SWT_PFX . '-button-secondary .wp-element-button {
                 color: var(--wp--preset--color--body);

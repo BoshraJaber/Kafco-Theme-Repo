@@ -2,9 +2,9 @@
 /**
  * Register latest comments styles.
  *
- * @package Spectra One
- * @author Brainstorm Force
- * @since 1.0.0
+ * @package Kafco
+ * @author Diyar United
+ * @since 0.0.1
  */
 
 declare( strict_types=1 );
@@ -21,7 +21,7 @@ register_block_style(
 	'core/latest-comments',
 	array(
 		'name'         => SWT_PFX . '-latest-comments-simple',
-		'label'        => __( 'Simple', 'spectra-one' ),
+		'label'        => __( 'Simple', 'kafco' ),
 		'inline_style' => '
 
             ' . $swt_parent_class . ' {
