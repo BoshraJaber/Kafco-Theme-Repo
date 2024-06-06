@@ -2,8 +2,8 @@
 /**
  * Load Scripts
  *
- * @package Spectra One
- * @author Brainstorm Force
+ * @package Kafco
+ * @author Diyar United
  * @since 0.0.1
  */
 

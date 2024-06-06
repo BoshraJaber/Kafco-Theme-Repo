@@ -2,9 +2,9 @@
 /**
  * Register archive Styles.
  *
- * @package Spectra One
- * @author Brainstorm Force
- * @since 1.0.0
+ * @package Kafco
+ * @author Diyar United
+ * @since 0.0.1
  */
 
 declare( strict_types=1 );
@@ -21,7 +21,7 @@ register_block_style(
 	'core/archives',
 	array(
 		'name'         => SWT_PFX . '-archives-minimal',
-		'label'        => __( 'Minimal', 'spectra-one' ),
+		'label'        => __( 'Minimal', 'Kafco' ),
 		'inline_style' => '
 
             ' . $swt_parent_class . ' {

@@ -2,9 +2,9 @@
 /**
  * Register Category Styles.
  *
- * @package Spectra One
- * @author Brainstorm Force
- * @since 1.0.0
+ * @package Kafco
+ * @author Diyar United
+ * @since 0.0.1
  */
 
 declare( strict_types=1 );

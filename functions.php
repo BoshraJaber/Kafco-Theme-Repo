@@ -10,10 +10,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 const SWT_VER  = '1.1.0';
-const SWT_SLUG = 'spectra-one';
-const SWT_NAME = 'Spectra One';
+const SWT_SLUG = 'kafco';
+const SWT_NAME = 'kafco';
 const SWT_PFX  = 'swt';
-const SWT_LOC  = 'spectraOne';
+const SWT_LOC  = 'kafco';
 const SWT_NS   = __NAMESPACE__ . '\\';
 const SWT_DS   = DIRECTORY_SEPARATOR;
 const SWT_DIR  = __DIR__ . SWT_DS;
@@ -22,13 +22,13 @@ const SWT_DIR  = __DIR__ . SWT_DS;
  * Setup base functions
  */
 require_once SWT_DIR . 'inc/utilities/all.php';
-require_once SWT_DIR . 'inc/theme-options.php';
-require_once SWT_DIR . 'inc/theme-updater.php';
+// require_once SWT_DIR . 'inc/theme-options.php';
+// require_once SWT_DIR . 'inc/theme-updater.php';
 require_once SWT_DIR . 'inc/scripts.php';
 require_once SWT_DIR . 'inc/blocks/all.php';
 require_once SWT_DIR . 'inc/compatibility/all.php';
 require_once SWT_DIR . 'inc/extensions/all.php';
-require_once SWT_DIR . 'inc/block-styles/all.php';
+// require_once SWT_DIR . 'inc/block-styles/all.php';
 
 /**
  * Admin functions
@@ -134,20 +134,6 @@ class PublicClientSideBlock {
     <div class="<?php echo $this->name ?>-update-me"><pre style="display: none;"><?php echo wp_json_encode($attributes) ?></pre></div>
     <?php return ob_get_clean();
   }
-}
-
-add_action('login_enqueue_scripts', 'ourLoginCSS');
-
-
-function ourLoginCSS() {
-  wp_enqueue_style('university_main_styles', get_theme_file_uri('/build/style-index.css'));
-  wp_enqueue_style('university_extra_styles', get_theme_file_uri('/build/index.css'));
-}
-
-add_filter('login_headertitle', 'ourLoginTitle');
-
-function ourLoginTitle() {
-  return get_bloginfo('name');
 }
 
 // Add a custom block catogery

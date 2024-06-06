@@ -2,8 +2,8 @@
 /**
  * Admin Global settings route.
  *
- * @package Spectra One
- * @author Brainstorm Force
+ * @package Kafco
+ * @author Diyar United
  * @since 1.0.2
  */
 

@@ -2,8 +2,8 @@
 /**
  * Theme updater
  *
- * @package Spectra One
- * @author Brainstorm Force
+ * @package Kafco
+ * @author Diyar United
  * @since 1.0.5
  */
 
@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 add_action( 'after_setup_theme', SWT_NS . 'run_function_after_theme_update' );
 
 /**
- * Regenerate spectra one.
+ * Regenerate Kafco one.
  *
  * @return void
  * @since 1.0.5
